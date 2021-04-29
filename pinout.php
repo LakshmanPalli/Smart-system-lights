@@ -3,7 +3,7 @@ $servername = "localhost";
 $username = "id15340690_arduino";
 $password = "6mT??G4nM0Y0STIF";
 $dbname = "id15340690_iot_value";
-// Create connection
+// Create connection to our database ( used phpMyAdmin)
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
